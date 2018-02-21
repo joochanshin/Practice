@@ -5,10 +5,10 @@ import FetchLocation from './components/FetchLocation';
 
 export default class App extends React.Component {
   getUserLocationHandler = () => {
-    console.log('Pressed the button');
-    navigator.geoLocation.getCurrentLocation(position =>{
-      console.log(position);
-    }, err =. console.log(err));
+    // console.log('Pressed the button');
+    // navigator.geoLocation.getCurrentLocation(position =>{
+    //   console.log(position);
+    // }, err =. console.log(err));
   }
   render() {
     return (

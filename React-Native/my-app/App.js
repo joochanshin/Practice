@@ -7,7 +7,7 @@ export default class App extends React.Component {
         <View style={styles.container}>
           <Text>This is a test</Text>
           <View style={styles1.box} />
-          <Text style={styles.text}>This is JooChan!</Text>
+          <Text style={styles.text}>This is a Test!</Text>
         </View>
     );
   }
