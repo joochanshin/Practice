@@ -1,0 +1,11 @@
+<h1 style="text-align: center; font-size: 3rem;">Homepage of Blogs</h1>
+<hr style="width: 50%;">
+
+<h2 class='blog-list'>List of all Blogs:</h2>
+
+<% @blogs.each do |b| %>
+
+<div><%= b.title %></div>
+<div><%= b.content %></div>
+
+<% end %>
