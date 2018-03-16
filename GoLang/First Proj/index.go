@@ -67,11 +67,28 @@ func main(){
 
 	//	Switch Case
 
-	yourAge := 5
+	// yourAge := 5
 
-	switch yourAge {
-		case 16 : fmt.Println("Go Drive")
-		case 18 : fmt.Println("Go Vote")
-		default : fmt.Println("Go Have Fun")
+	// switch yourAge {
+	// 	case 16 : fmt.Println("Go Drive")
+	// 	case 18 : fmt.Println("Go Vote")
+	// 	default : fmt.Println("Go Have Fun")
+	// }
+
+	//	Arrays
+
+	// var favNums2[5] float64
+
+	// favNums2[0] = 163
+	// favNums2[1] = 2345
+
+	favNums3 := [5]float64 {1, 2, 3, 4, 5}
+
+	for i, value := range favNums3{
+		fmt.Println(value, i)
+	}
+
+	for _, value := range favNums3{
+		fmt.Println(value)
 	}
 }
