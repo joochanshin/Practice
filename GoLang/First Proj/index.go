@@ -91,4 +91,8 @@ func main(){
 	for _, value := range favNums3{
 		fmt.Println(value)
 	}
+
+	for j, value := range favNums3{
+		fmt.Println(value*2, j)
+	}
 }
