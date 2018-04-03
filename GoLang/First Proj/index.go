@@ -82,17 +82,29 @@ func main(){
 	// favNums2[0] = 163
 	// favNums2[1] = 2345
 
-	favNums3 := [5]float64 {1, 2, 3, 4, 5}
+	// favNums3 := [5]float64 {1, 2, 3, 4, 5}
 
-	for i, value := range favNums3{
-		fmt.Println(value, i)
-	}
+	// for i, value := range favNums3{
+	// 	fmt.Println(value, i)
+	// }
 
-	for _, value := range favNums3{
-		fmt.Println(value)
-	}
+	// for _, value := range favNums3{
+	// 	fmt.Println(value)
+	// }
 
-	for j, value := range favNums3{
-		fmt.Println(value*2, j)
-	}
+	// for j, value := range favNums3{
+	// 	fmt.Println(value*2, j)
+	// }
+	presAge := make(map[string] int)
+
+	presAge["TheodoreRoosevelt"] = 42
+
+	fmt.Println(len(presAge))
+	fmt.Println("Name: TheodoreRoosevelt", "Age:", presAge["TheodoreRoosevelt"])
+
+	presAge["John F. Kennedy"] = 43
+	fmt.Println(len(presAge))
+
+	delete(presAge, "John F. Kennedy")
+	fmt.Println(len(presAge))
 }
